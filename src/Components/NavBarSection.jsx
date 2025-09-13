@@ -13,19 +13,19 @@ const NavBarSection = () => {
         
         <div className='max-w-7xl mx-auto px-6 py-3 flex justify-between items-center'>
             {/* logo section */}
-            <div className='text-2xl font-bold text-blue-500'>
-                MySchool Logo
+            <div className='text-2xl font-bold text-blue-500 flex-end'>
+            My school Logo
             </div>
 
             {/* Desktop Menu */}
             <div>
-                 <h1 className='text-xl font-bold'>Delight group of school</h1>
+                 <h1 className='text-xl font-bold'>Delight Group of School</h1>
            
              </div>
 
 
              <div>
-                <Button variant='success'>Search Button</Button>
+                {/* <Button variant='success'>Search Button</Button> */}
              </div>
 
            

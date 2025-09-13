@@ -13,6 +13,7 @@ import Sidebar from './Components/Sidebar'
 import StudentDashBard from './Pages/Dashboard/StudentDashBard'
 import AdminDashBoard from './Pages/Dashboard/AdminDashBoard'
 import Teacher from './Pages/Teacher'
+import FooterSection from './Components/FooterSection'
 // import Layout from './Components/Layout'
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
     </div>
    
    
-      
+      <FooterSection />
    </AuthProvider>
    </BrowserRouter>
     </>

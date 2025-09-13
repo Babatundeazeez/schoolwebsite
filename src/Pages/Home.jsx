@@ -4,6 +4,7 @@ import CarouselHome from '../Components/CarouselHome'
 import Card from '../Components/Card'
 import { Link } from 'react-router-dom'
 import Card2 from '../Components/Card2'
+import NewCard from '../Components/NewCard'
 
 const Home = () => {
   return (
@@ -115,21 +116,70 @@ const Home = () => {
       <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center max-w-5xl mx-auto'>
         <Card2
         title="Neatest Female of the week"
-        subtitle="Azeez Aderemi"
+        subtitle="Mariam Anifowose"
         myclass="SSS3A"
          />
           <Card2
         title="Neatest Female of the week"
-        subtitle="Azeez Aderemi"
+        subtitle="Summayah Babatunde"
         myclass="SSS3A"
          />
          <Card2
         title="Neatest Female of the week"
-        subtitle="Azeez Aderemi"
-        myclass="SSS3A"
+        subtitle="Khadijah Ireoluwa"
+        myclass="SSS3B"
          />
       </div>
     </div>
+    {/* Another section.................... */}
+
+    <div className='mt-10 bg-gray-400 px-6 py-10'>
+      <div className='md:col-span-1'>
+      <h2 className='text-xl md:text-2xl font-bold mb-6 text-left'>Leatest News</h2>
+
+      <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-5xl mx-auto'>
+        <NewCard 
+        image="/image/graduate-1.jpg"
+        title="2025 Graduating student"
+        author="By Azeez Aderemi Babatunde "
+        description="Graduation Party"
+        date="13th sep, 2025"
+        myBtn="Learn more...."
+        />
+
+        <NewCard 
+        image="/image/graduate-2.jpg"
+        title="2025 Graduating student"
+        author="By Azeez Aderemi Babatunde "
+        description="Graduation Party"
+        date="13th sep, 2025"
+        myBtn="Learn more...."
+        />
+
+        <NewCard 
+        image="/image/graduate-3.jpg"
+        title="2025 Graduating student"
+        author="By Azeez Aderemi Babatunde "
+        description="Graduation Party"
+        date="13th sep, 2025"
+        myBtn="Learn more...."
+        />
+
+        <NewCard 
+        image="/image/graduate-4.jpg"
+        title="2025 Graduating student"
+        author="By Azeez Aderemi Babatunde "
+        description="Graduation Party"
+        date="13th sep, 2025"
+        myBtn="Learn more...."
+        />
+
+      </div>
+      
+      </div>
+
+    </div>
+
         </div>
   )
 }

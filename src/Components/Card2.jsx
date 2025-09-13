@@ -8,8 +8,8 @@ const Card2 = ({ title, subtitle,myclass}) => {
         {/* card-content */}
         <div className='p-4 space-y-2'>
             <h3 className='text-lg font-bold text-gray-800'>{title}</h3>
-            <p className='text-sm text-gray-500'>{subtitle} </p>
-            <p className='text-sm text-gray-500'>{myclass}</p>
+            <p className='text-md text-white'>{subtitle} </p>
+            <p className='text-sm text-yellow-200 font-bold'>{myclass}</p>
 
         </div>
 
