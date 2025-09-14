@@ -14,6 +14,8 @@ import StudentDashBard from './Pages/Dashboard/StudentDashBard'
 import AdminDashBoard from './Pages/Dashboard/AdminDashBoard'
 import Teacher from './Pages/Teacher'
 import FooterSection from './Components/FooterSection'
+import SignUp from './Context/SignUp'
+import SignIn from './Context/SignIn'
 // import Layout from './Components/Layout'
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
         <Route path='/student' element = {<StudentDashBard />} />
         <Route path='/administration' element = {<AdminDashBoard />} />
         <Route path='/teacher' element = {<Teacher />} />
+        <Route path='/signUp' element = {<SignUp />} />
+        <Route path='/signIn' element = {<SignIn />} />
         </Route>
         
     </Routes>
