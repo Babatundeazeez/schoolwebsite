@@ -8,7 +8,7 @@ import AcademyProgramme from './Pages/AcademyProgramme'
 import AdmissionPage from './Pages/AdmissionPage'
 import About from './Pages/About'
 import ContactUsPage from './Pages/ContactUsPage'
-import NavBar2section from './Components/NavBar2section'
+// import NavBar2section from './Components/NavBar2section'
 import Sidebar from './Components/Sidebar'
 import StudentDashBard from './Pages/Dashboard/StudentDashBard'
 import AdminDashBoard from './Pages/Dashboard/AdminDashBoard'
@@ -28,7 +28,7 @@ function App() {
     <div className='pt-7 '>
     
     <NavBarSection />
-    <NavBar2section />
+    {/* <NavBar2section /> */}
     <Routes>
     
     

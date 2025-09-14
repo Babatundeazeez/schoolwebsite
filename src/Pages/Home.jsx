@@ -42,7 +42,7 @@ const Home = () => {
        </div>
     </div>
     {/* Third section................. */}
-    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2'>
    <Link to='/'>
    <Card 
      image="/image/e-lib1.jpg"
@@ -50,7 +50,7 @@ const Home = () => {
      description="Library is where student gain more knowledge in various aspect of course"
      />
      </Link>
-
+ {/* second link..................... */}
     <Link to='/student'>
     <Card 
     image="/image/studentPortal-2.png"
@@ -58,6 +58,7 @@ const Home = () => {
     description="Student should click here to access their portal here"
     />
     </Link>
+    {/* Third link..................... */}
     <Link to='/'>
     <Card 
     image="/image/news-1.jpg"
@@ -108,12 +109,12 @@ const Home = () => {
 
     </div>
     {/* Another section....... */}
-    <div className='mt-10 text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+    <div className='mt-10 text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2'>
       <div className='md:col-span-1'>
       <h2 className='text-xl md:text-2xl font-bold text-center md:text-left'>NEATEST CLASS OF THE WEEK</h2>
       </div>
 
-      <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center max-w-5xl mx-auto'>
+      <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-2 max-w-5xl mx-auto'>
         <Card2
         title="Neatest Female of the week"
         subtitle="Mariam Anifowose"
@@ -131,13 +132,13 @@ const Home = () => {
          />
       </div>
     </div>
-    {/* Another section.................... */}
+    {/* Another section....News section................ */}
 
     <div className='mt-10 bg-gray-400 px-6 py-10'>
       <div className='md:col-span-1'>
       <h2 className='text-xl md:text-2xl font-bold mb-6 text-left'>Leatest News</h2>
 
-      <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-5xl mx-auto'>
+      <div className='md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-2 max-w-5xl mx-auto'>
         <NewCard 
         image="/image/graduate-1.jpg"
         title="2025 Graduating student"
